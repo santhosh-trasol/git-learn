@@ -1,0 +1,65 @@
+
+
+                                                                   GIT USER FILE
+                                                                   ~~~~~~~~~~~~~
+
+git
+
+(githup link)
+
+1/
+
+git config --global user.name "santhosh-trasol"
+
+git config --global user.email "santhoshtrasol@gmail.com"
+
+2/
+
+git config --global user.name "Santhosh-Uidev"
+
+git config --global user.email "santhosh@trasol.in"
+
+//////////////////////////////////////////                TO SEE WHICH GIT ACCOUNT IS USED IN LAPTOP    ////////////////////
+
+.gitconfig
+
+//////////////////////////////////////////                OPEN TERMINAL IN VS CODE => CNTRL + SHIFT + `         //////////////////////////
+
+git clone https://github.com/santhosh-trasol/git-test.git
+
+git cd filename
+
+/////////////////////////////////////////           (if we added file local clone file and we want to save in repository )    /////////////////
+
+git status                     ----------------------------------        (for checking the file if anyone got UNADDED )
+
+git add filename (or) git add .              ----------------------------------        (and check above cheat ^ )
+
+git commit -m "changed msg"    ----------------------------------        (like saving the file)
+
+git push origin main           ----------------------------------        ( for update code to live code )
+
+git pull origin main                    ----------------------------------        ( updatating the new code from live to our clone file )
+
+git cs ..                        --------------------------------------          ( backward to main file ,like backspace btn )
+
+git init                      -----------------------------------            ( initializeing the git repostiory )
+
+git remote add origin [filebath]   ---------- ( it will link the repository , which one we want )
+
+git branch                    -----------------------------------------       ( identifie the branch name )
+
+git branch -M main           ----------------   ( if branch name shown old branch name master, this cheat code will rename to main from branch )
+
+git branch -a                -----------------   ( show all the branch names)
+
+git checkout branchname      --------------------  (choose the branch name )
+
+git merge branchname         ----------------------       ( from main branch , this code will merge all branch source )
+
+git branch -m old-branch new-branch  -------------------     (editing the branch name )
+
+
+
+
+
